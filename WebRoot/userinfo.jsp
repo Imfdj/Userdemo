@@ -22,7 +22,7 @@
 				<a href="${pageContext.request.contextPath }/servlet/blogPageServlet" class="fr ">返回首页</a>
 			</div>
 			<div class="per-foot">
-				<div class="f-left fl">  
+				<div class="f-left fl">     
 					<ul>
 						<li class="li1"><i class="i1 fl"></i><a class="a1">我的资料</a></li>
 						<li class="li2"><i class="i2 fl"></i><a class="a2">站内信息</a></li>
