@@ -21,7 +21,7 @@
 		<p class="top w">后台管理系统</p>
 		<a href="${pageContext.request.contextPath }/servlet/msgListServlet"><span>留言管理</span>
 		</a> <a href="${pageContext.request.contextPath }/servlet/userListServlet"><span>用户管理</span>
-		</a> <a href="${pageContext.request.contextPath }/servlet/blogPageServlet"><span>主页</span>
+		</a> <a href="${pageContext.request.contextPath }/servlet/blogPageServlet"><span>主页</span> 
 		</a>
 	</div>
 
