@@ -1,0 +1,454 @@
+@charset "UTF-8";
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+ul,ol {
+	list-style: none;
+}
+/*公共类*/
+body {
+	font: 12px "宋体", Arial, Helvetica, sans-serif;
+	color: #756F71;
+}
+
+.w { /*版心 提取 */
+	width: 950px;
+	margin: 0 auto;
+}
+
+.fl {
+	float: left
+}
+
+.fr {
+	float: right
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+/*头部*/
+.quit {
+	color: red;
+}
+
+.head {
+	width: 100%;
+	height: 70px;
+	text-align: center;
+}
+
+.head img {
+	width: 230px;
+	height: 70px;
+}
+
+.login {
+	width: 60px;
+	padding-top: 10px;
+}
+
+.login a {
+	cursor: pointer;
+}
+
+<!--
+登录后部件-->.loginafter {
+	width: 35px;
+	height: 60px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 20px;
+	/*background-color: yellow;*/
+}
+
+.loginafter .username-log {
+	width: 35px;
+	height: 20px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 20px;
+	color: #000000;
+	cursor: pointer;
+}
+
+.loginafter .slide {
+	display: none;
+}
+
+.loginafter .logout {
+	width: 35px;
+	height: 20px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 20px;
+
+	/*background-color: #DCDCDC;*/
+}
+
+.loginafter .logout a {
+	color: red;
+}
+
+.loginafter .manage {
+	width: 35px;
+	height: 20px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 20px;
+	color: red;
+	/*background-color: #DCDCDC;*/
+	cursor: pointer;
+}
+
+.head .head_right {
+	width: 378px;
+	height: 70px;
+	margin-left: 250px;
+	position: relative;
+}
+
+.head ul {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 100px;
+}
+
+.head ul li {
+	float: left;
+	width: 80px;
+	height: 20px;
+	line-height: 20px;
+	margin: 30px 0;
+	font-size: 18px;
+}
+
+.head .biao {
+	width: 80px;
+	height: 20px;
+	margin-left: 100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 50px;
+	background: url(../img/biao.jpg) no-repeat center center;
+}
+
+.foot {
+	line-height: 50px;
+	background-color: #eee;
+	font-size: 15px;
+	text-align: center;
+}
+
+._gotop {
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	display: none;
+}
+/*登录组件*/
+.-mask {
+	width: 100%;
+	height: 100%;
+	opacity: 0.3; /*半透明*/
+	filter: alpha(opacity =   40); /*ie 6半透明*/
+	background-color: black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+.loginele {
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	opacity: 0;
+	width: 230px;
+	height: 100px;
+	border: 1px solid #333333;
+	background-color: #fff;
+	padding: 5px;
+}
+
+.loginele input {
+	margin: 5px 0;
+}
+
+.login .logbut {
+	padding-left: 80px;
+}
+
+/*========================================分页*/
+.pagination {
+	padding: 5px;
+	width: 600px;
+	height: 24px;
+	margin: 5px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.pagination ul {
+	margin: 5;
+	padding: 5;
+	font-size: 12px;
+}
+
+.pagination li {
+	list-style-type: none;
+	display: inline;
+	padding: 1px;
+	margin: 1px;
+}
+
+.pagination a,.pagination a:visited {
+	padding: 5px;
+	border: 1px solid #9aafe5;
+	text-decoration: none;
+	color: #2e6ab1;
+}
+
+.pagination a:hover,.pagination a:active {
+	border: 1px solid #2b66a5;
+	color: #000;
+	background-color: lightyellow;
+}
+
+.pagination li.currentpage {
+	font-weight: bold;
+	padding: 5px;
+	border: 1px solid navy;
+	background-color: #2e6ab1;
+	color: #FFF;
+}
+
+.pagination li.disablepage {
+	padding: 5px;
+	color: #929292;
+}
+
+.pagination li.nextpage {
+	font-weight: bold;
+	padding: 5px;
+}
+
+/*登录样式*/
+.o-unlogin {
+	padding-top: 15px;
+	font: 12px/1.5 "微软雅黑", Helvetica, Arial, sans-serif;
+}
+
+.o-unlogin .icofont {
+	display: inline-block;
+	width: 18px;
+	height: 20px;
+	background: url(img/head-icos.png) -451px -604px;
+}
+
+.o-unlogin .u-login,.o-unlogin .u-reg {
+	display: inline-block;
+	padding: 0 4px;
+	line-height: 20px;
+	color: #868686;
+	cursor: pointer;
+}
+
+em {
+	font-style: normal;
+	font-weight: 500;
+}
+
+/*注册样式*/
+label,input {
+	display: block;
+}
+
+input.text {
+	margin-bottom: 12px;
+	width: 75%;
+	padding: .4em;
+	margin: 20px auto;
+}
+
+fieldset {
+	padding: 0;
+	border: 0;
+	margin-top: 25px;
+}
+
+h1 {
+	font-size: 1.2em;
+	margin: .6em 0;
+}
+
+div#users-contain {
+	width: 350px;
+	margin: 20px 0;
+}
+
+div#users-contain table {
+	margin: 1em 0;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+div#users-contain table td,div#users-contain table th {
+	border: 1px solid #eee;
+	padding: .6em 10px;
+	text-align: left;
+}
+
+.ui-dialog .ui-state-error {
+	padding: .3em;
+}
+
+.validateTips {
+	border: 1px solid transparent;
+	/*padding: 1.3em;*/
+}
+
+#login_form .change,#register-form .change {
+	padding-left: 180px;
+}
+
+#login_form .change a,#register-form .change a {
+	color: #1C94C4;
+}
+
+.o-onlogin {
+	position: relative;
+	padding-top: 15px;
+	font: 12px/1.5 "微软雅黑", Helvetica, Arial, sans-serif;
+}
+
+.o-onlogin .tanchuangon {
+	cursor: pointer;
+}
+
+.o-onlogin .onpho {
+	width: 20px;
+	height: 20px;
+}
+
+.o-onlogin .onusername {
+	padding-left: 10px;
+	line-height: 20px;
+}
+
+.o-onlogin .triangle { /*border: 5px solid black;*/
+	
+}
+
+.tanchuang {
+	position: absolute;
+	top: 35px;
+	left: 0px;
+	width: 250px;
+	height: 150px;
+	background-color: #fff;
+	border-top: 1px solid #DDDDDD;
+	/*border: 1px solid #8BBF5D;*/
+	z-index: 9999;
+	display: none;
+}
+
+.tanchuang .tan-t .quan {
+	position: absolute;
+	top: 0px;
+	left: 100px;
+	width: 50px;
+	height: 50px;
+	border: #FFF 1px solid;
+	border-radius: 100%;
+	overflow: hidden;
+}
+
+.tanchuang img {
+	width: 50px;
+	height: 50px;
+	/*background: url(img/984de7a791e6af94e788b1e5b091e5b9b42e41.jpg) center center no-repeat;*/
+}
+
+.tanchuang  .name {
+	position: absolute;
+	top: 60px;
+	left: 75px;
+	width: 100px;
+	font-size: 15px;
+	line-height: 15px;
+	background-color: #fff;
+}
+
+.tanchuang .tan-b .logout {
+	position: absolute;
+	top: 20px;
+	left: 190px;
+	width: 35px;
+	padding-left: 18px;
+	line-height: 15px;
+	background: url(/userdemo/img/header-out-icon.png) no-repeat;
+	cursor: pointer;
+}
+
+.tanchuang .tan-b .adminon {
+	position: absolute;
+	top: 50px;
+	left: 190px;
+	width: 35px;
+	color: red;
+	padding-left: 18px;
+	line-height: 15px;
+	background: url(/userdemo/img/header-out-icon.png) no-repeat;
+	cursor: pointer;
+}
+
+.tanchuang .tan-b .introduction {
+	position: absolute;
+	top: 90px;
+	left: 0px;
+	width: 200px;
+	line-height: 15px;
+}
+
+.dialog-init {
+	/*------------------------------------------------dialog加载闪烁解决*/
+	display: none;
+}
+/*----------------------------------------------------------------nav样式*/
+.head_right span {
+	width: 30px;
+	height: 15px;
+	font: 12px Georgia, serif;
+	color: #999;
+	display: none;
+}
+
+.head_right .nav1-span {
+	position: absolute;
+	top: 55px;
+	left: 24px;
+}
+
+.head_right .nav2-span {
+	position: absolute;
+	top: 55px;
+	left: 105px;
+}
+
+.head_right .nav3-span {
+	position: absolute;
+	top: 55px;
+	left: 185px;
+}

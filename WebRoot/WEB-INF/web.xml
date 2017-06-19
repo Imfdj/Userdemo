@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>Regiservlet</servlet-name>
+    <servlet-class>com.user.servlet.Regiservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ddd</servlet-name>
+    <servlet-class>com.user.servlet.ddd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>fff</servlet-name>
+    <servlet-class>com.user.servlet.fff</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Loginservlet</servlet-name>
+    <servlet-class>com.user.servlet.Loginservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Publishservlate</servlet-name>
+    <servlet-class>com.user.servlet.Publishservlate</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowBlogServlet</servlet-name>
+    <servlet-class>com.user.servlet.ShowBlogServlet</servlet-class>
+    <load-on-startup>2</load-on-startup>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginOutServlet</servlet-name>
+    <servlet-class>com.user.servlet.LoginOutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>leavemsgServlet</servlet-name>
+    <servlet-class>com.user.servlet.leavemsgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LeaveServlet</servlet-name>
+    <servlet-class>com.user.servlet.LeaveServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RemoveBlogServlet</servlet-name>
+    <servlet-class>com.user.servlet.RemoveBlogServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AlterBlogServlet</servlet-name>
+    <servlet-class>com.user.servlet.AlterBlogServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BlogListServlet</servlet-name>
+    <servlet-class>com.user.servlet.BlogListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MsgListServlet</servlet-name>
+    <servlet-class>com.user.servlet.MsgListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RemoveMsgServlet</servlet-name>
+    <servlet-class>com.user.servlet.RemoveMsgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ReplyMsgServlet</servlet-name>
+    <servlet-class>com.user.servlet.ReplyMsgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RemoveReplymsgByIdServlet</servlet-name>
+    <servlet-class>com.user.servlet.RemoveReplymsgByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>VerifyUsernameON</servlet-name>
+    <servlet-class>com.user.servlet.VerifyUsernameON</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowUserInfo</servlet-name>
+    <servlet-class>com.user.servlet.ShowUserInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AlterInfoById</servlet-name>
+    <servlet-class>com.user.servlet.AlterInfoById</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>VerifyUserPassword</servlet-name>
+    <servlet-class>com.user.servlet.VerifyUserPassword</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AlterPasswordById</servlet-name>
+    <servlet-class>com.user.servlet.AlterPasswordById</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AlterUserIconById</servlet-name>
+    <servlet-class>com.user.servlet.AlterUserIconById</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>IndexServlet</servlet-name>
+    <servlet-class>com.user.servlet.IndexServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LeaveMsgServlet</servlet-name>
+    <servlet-class>com.user.servlet.LeaveMsgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserListServlet</servlet-name>
+    <servlet-class>com.user.servlet.UserListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AlterUserStateServlet</servlet-name>
+    <servlet-class>com.user.servlet.AlterUserStateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BlogPageServlet</servlet-name>
+    <servlet-class>com.user.servlet.BlogPageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MessagePageServlet</servlet-name>
+    <servlet-class>com.user.servlet.MessagePageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminUserInfoServlet</servlet-name>
+    <servlet-class>com.user.servlet.AdminUserInfoServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Regiservlet</servlet-name>
+    <url-pattern>/servlet/regiservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ddd</servlet-name>
+    <url-pattern>/servlet/ddd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>fff</servlet-name>
+    <url-pattern>/servlet/fff</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Loginservlet</servlet-name>
+    <url-pattern>/servlet/loginservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Publishservlate</servlet-name>
+    <url-pattern>/servlet/publishservlate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowBlogServlet</servlet-name>
+    <url-pattern>/servlet/showBlogServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginOutServlet</servlet-name>
+    <url-pattern>/servlet/loginOutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>leavemsgServlet</servlet-name>
+    <url-pattern>/servlet/leavemsgservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LeaveServlet</servlet-name>
+    <url-pattern>/servlet/leaveservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RemoveBlogServlet</servlet-name>
+    <url-pattern>/servlet/removeBlogServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AlterBlogServlet</servlet-name>
+    <url-pattern>/servlet/alterBlogServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BlogListServlet</servlet-name>
+    <url-pattern>/servlet/blogListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MsgListServlet</servlet-name>
+    <url-pattern>/servlet/msgListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RemoveMsgServlet</servlet-name>
+    <url-pattern>/servlet/removeMsgServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReplyMsgServlet</servlet-name>
+    <url-pattern>/servlet/replyMsgServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RemoveReplymsgByIdServlet</servlet-name>
+    <url-pattern>/servlet/removeReplymsgByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VerifyUsernameON</servlet-name>
+    <url-pattern>/servlet/verifyUsernameON</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowUserInfo</servlet-name>
+    <url-pattern>/servlet/showUserInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AlterInfoById</servlet-name>
+    <url-pattern>/servlet/alterInfoById</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VerifyUserPassword</servlet-name>
+    <url-pattern>/servlet/verifyUserPassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AlterPasswordById</servlet-name>
+    <url-pattern>/servlet/alterPasswordById</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AlterUserIconById</servlet-name>
+    <url-pattern>/servlet/alterUserIconById</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IndexServlet</servlet-name>
+    <url-pattern>/servlet/indexServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LeaveMsgServlet</servlet-name>
+    <url-pattern>/servlet/leaveMsgServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserListServlet</servlet-name>
+    <url-pattern>/servlet/userListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AlterUserStateServlet</servlet-name>
+    <url-pattern>/servlet/alterUserStateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BlogPageServlet</servlet-name>
+    <url-pattern>/servlet/blogPageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MessagePageServlet</servlet-name>
+    <url-pattern>/servlet/messagePageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminUserInfoServlet</servlet-name>
+    <url-pattern>/servlet/adminUserInfoServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>servlet/blogPageServlet</welcome-file>
+  </welcome-file-list>
+</web-app>

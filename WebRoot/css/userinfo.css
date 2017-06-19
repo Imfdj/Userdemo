@@ -1,0 +1,183 @@
+body {
+	
+}
+.personage {
+	padding-top: 20px;
+	height: 600px;
+}
+
+.personage .per-head {
+	height: 70px;
+}
+
+.personage .f-h1 {
+	color: #363636;
+	font-size: 33px;
+	line-height: 30px;
+	padding-left: 20px;
+}
+
+.personage .per-head a {
+	padding-top: 40px;
+	line-height: 15px;
+}
+
+.per-foot {
+	height: 500px;
+}
+
+.per-foot .f-left {
+	padding-top: 10px;
+	border-top: 2px solid #EB8F00;
+	width: 160px;
+}
+
+.per-foot .f-left ul {
+	padding-top: 10px;
+}
+
+.per-foot .f-left ul li {
+	border-bottom: 1px solid #DCDCDC;
+	padding: 12px 30px;
+	cursor: pointer;
+}
+
+.per-foot .f-left .li1 {
+	background-color: #EB8F00;
+}
+
+.per-foot .f-left i {
+	height: 22px;
+}
+
+.per-foot .f-left .i1 {
+	padding-left: 35px;
+	background: url(img/u_nav_icon.png) -25px 3px no-repeat;
+}
+
+.per-foot .f-left .i2 {
+	padding-left: 35px;
+	background: url(img/u_nav_icon.png) 2px -45px no-repeat;
+}
+
+.per-foot .f-left .a1 {
+	line-height: 22px;
+	color: #fff;
+}
+
+.per-foot .f-left .a2 {
+	line-height: 22px;
+}
+
+.f-right {
+	padding-top: 20px;
+	border-top: 2px solid #EB8F00;
+	margin-left: 15px;
+	width: 775px;
+	height: 500px;
+}
+
+.f-right .f-h2 {
+	line-height: 40px;
+	padding-left: 10px;
+}
+
+.f-right .h2-i {
+	display: block;
+	float: left;
+	margin: 10px 20px;
+	margin-right: 10px;
+	height: 20px;
+	width: 20px;
+	background: url(img/user_center_icons.png)  0 -205px no-repeat;
+}
+
+.f-right .h2-change {
+	display: block;
+	float: left;
+	margin: 10px 20px;
+	margin-left: 695px;
+	height: 20px;
+	width: 20px;
+	border: 1px solid red;
+	background: url(img/user_center_icons.png)  -40px -208px no-repeat;
+}
+
+.f-right .info-main {
+	padding-top: 50px;
+}
+
+.f-right .info-main .info-img {
+	position: relative;
+	width: 100px;
+	height: 200px;
+}
+
+.f-right .info-main .user-icon-x {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100px;
+	height: 100px;
+	background: url(img/updatePortait.png) center center no-repeat;
+	background-color: #000000;
+	opacity: .4;
+	display: none;
+	cursor: pointer;
+}
+
+.f-right .info-img .change-pass {
+	position: absolute;
+	top: 160px;
+	left: 20px;
+	padding: 0;
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.f-right .info-img .pass-icon {
+	display: block;
+	width: 30px;
+	height: 30px;
+	background: url(img/user_center_icons.png) -2px -33px no-repeat;
+}
+
+.f-right .info-main span,
+.f-right .info-main p {
+	line-height: 15px;
+	padding: 10px;
+}
+
+.f-right .info-main p {
+	padding-left: 0px;
+}
+
+.f-right .info-main .info-text {
+	/*width: 600px;*/
+	height: 500px;
+	padding-left: 20px;
+	
+}
+
+.f-right .info-main .info-text li {
+	/*float: left;*/
+	width: 600px;
+	height: 40px;
+}
+
+#exinfo_form {
+	display: none;
+}
+
+#pass_id {
+	/*------------------------------------------ 隐藏修改密码时的id*/
+	display: none;
+}
+
+#user_icon {
+	width: 100px;
+	height: 100px;
+}

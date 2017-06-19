@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+  <default-config>
+	<property name="driverClass">com.mysql.jdbc.Driver</property>
+	<property name="jdbcUrl">jdbc:mysql://127.0.0.1:3306/day12</property>
+	<property name="user">root</property>
+	<property name="password">123456</property>
+    <property name="initialPoolSize">10</property>
+    <property name="maxIdleTime">30</property>
+    <property name="maxPoolSize">20</property>
+    <property name="minPoolSize">3</property>
+    <property name="c3p0.idle_test_period">120</property> <!-- seconds --><!-- default: 0 --> 
+
+  </default-config>
+
+  
+
+</c3p0-config>

@@ -1,0 +1,102 @@
+	.username {
+			display:none;
+		}
+		.leavemsg {
+			height: 100px;
+			padding-top: 10px;
+		}
+			.s_username {
+				float: left;
+				width: 124px;
+				border: 1px solid gainsboro;
+				
+			}
+			.touxiang {
+				display: inline-block;
+				width: 60px;
+				height: 59px;
+				border: 1px solid gainsboro;
+				padding: 4px;
+				margin: 10px 26px 6px 26px;
+			}
+			.name {
+				display: inline-block;
+				width: 124px;
+				text-align: center;
+				padding-bottom: 3px;
+			}
+			.l_msg {
+				float: left;
+				width: 530px;
+				height: 72px;
+				padding: 15px 20px;
+				line-height: 18px;
+				border: 1px solid gainsboro;
+				
+			}
+			.times {
+				float: left;
+				width: 180px;
+				line-height: 102px;
+				padding-left: 20px;
+				border: 1px solid gainsboro;
+			}
+			.pubmsg {
+				width: 627px;
+				height: 102px;
+				margin: 0 auto;
+				margin-top: 10px;
+			}
+			.msgtext {
+				float: left;
+				width: 535px;
+				height: 80px;
+				padding: 10px 10px;
+				border: 1px solid gainsboro;
+				margin-left: -35px;
+				resize:none;
+			}
+			.msgbtn {
+				float: left;
+				width: 60px;
+				height: 100px;
+				border: 5px solid grey;
+				
+			}
+			
+			
+			.admin-msg {
+			display: block;
+			width: 754px;
+			height: 67px;
+			margin-top: 4px;
+			margin-left: 263px;
+			border: 1px solid gainsboro;
+			
+		}
+		.admin-msg .admin-icon {
+			float: left;
+			margin-top: 5px;
+			margin-left: 5px;
+			width: 55px;
+			height: 55px;
+		}
+		.admin-msg .admin-msg-text {
+			float: left;
+			width: 549px;
+			height: 57px;
+			line-height: 20px;
+			padding: 5px;
+			border-right: 1px solid gainsboro;
+		}
+		.admin-msg .reply-time {
+			float: left;
+			width: 118px;
+			height: 67px;
+			padding-left: 16px;
+			line-height: 67px;
+		}
+		
+		.pagination {/*========================================liuyan∑÷“≥ paddingtop*/
+			padding-top: 25px !important;
+		}
